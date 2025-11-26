@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-11-26T02:49:17.344639+01:00 by Eclipse SUMO netedit 1.25.0
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="C:\Users\17608\Downloads\Test\demo2.sumocfg"/>
+        <sumo-net-file value="C:\Users\17608\Downloads\Test\demo2.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\17608\Downloads\Test\demo2.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</neteditConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-61.11,9.36,39.95,9.67" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <edge id="-E0" from="J3" to="J2" priority="-1">
+        <lane id="-E0_0" index="0" speed="13.89" length="101.06" shape="39.95,11.27 -61.11,10.96"/>
+    </edge>
+    <edge id="E0" from="J2" to="J3" priority="-1">
+        <lane id="E0_0" index="0" speed="13.89" length="101.06" shape="-61.11,7.76 39.95,8.07"/>
+    </edge>
+
+    <junction id="J2" type="dead_end" x="-61.11" y="9.36" incLanes="-E0_0" intLanes="" shape="-61.11,9.36 -61.12,12.56 -61.11,9.36"/>
+    <junction id="J3" type="dead_end" x="39.95" y="9.67" incLanes="E0_0" intLanes="" shape="39.95,9.67 39.96,6.47 39.95,9.67"/>
+
+</net>

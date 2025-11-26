@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>SumoTraciJava</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!-- 官方 libtraci Java 绑定（TraCI 客户端）
+        <dependency>
+            <groupId>org.eclipse.sumo</groupId>
+            <artifactId>libtraci</artifactId>
+            <version>1.20.0</version>   2024-10 最新 release
+        </dependency>-->
+        <dependency>
+            <groupId>org.eclipse.sumo</groupId>
+            <artifactId>libtraci</artifactId>
+            <version>1.25.0</version>
+            <scope>system</scope>
+            <systemPath>C:/Program Files (x86)/Eclipse/Sumo/bin/libtraci-1.25.0.jar</systemPath>
+        </dependency>
+    </dependencies>
+
+    <!-- 官方 Eclipse SUMO Nexus 仓库（必须加这个！） -->
+    <repositories>
+        <repository>
+            <id>eclipse-sumo-releases</id>
+            <name>Eclipse SUMO Releases</name>
+            <url>https://repo.eclipse.org/content/repositories/sumo-releases/</url>
+        </repository>
+    </repositories>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>
