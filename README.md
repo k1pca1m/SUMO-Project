@@ -1,8 +1,19 @@
-# Real-Time Traffic Simulation with Java
-🚦 Project: Real-Time Traffic Simulation with SUMO & Java
+# SUMO Traffic Simulation (Java)
 
-This project implements a real-time traffic simulation platform using the SUMO mobility engine and TraaS (Traffic Control as a Service) Java API. The goal is to create an interactive, object-oriented system that visualizes traffic flow, controls traffic lights, injects vehicles, and generates analytics — all in real time.
+This project connects a Java application to the SUMO traffic simulator using TraCI to visualize and analyze traffic flow on a small road network.
 
-The application is designed according to the official project description and milestone requirements of the OOP in Java course (Winter Semester 2025/26).
-Includes: architecture design, GUI, TraaS wrapper, analytics, error handling, multithreading, file export, clean code and documentation.
+## Features
+- Starts SUMO with a custom `.sumocfg` scenario.
+- Reads live vehicle positions via TraCI and displays them in a Java GUI.
+- Shows basic metrics such as active vehicles and simple congestion indicators.
 
+## Tech Stack
+- Java (Swing for GUI)
+- Eclipse SUMO
+- TraCI / libtraci bindings
+
+## How to Run
+1. Install SUMO and ensure it runs with your `.sumocfg` file.
+2. Configure the Java code with the correct path to `test2.sumocfg` and SUMO binaries.
+3. Build and run the `Main` class from your IDE.
+4. Watch the SUMO GUI and Java window to see vehicles move in the simulated network.
