@@ -1,0 +1,164 @@
+2025-12-17 00:03:35 | INFO    | org.example.Logging initOnce | TrafficSim | Logger ready (console + traffic_sim.log).
+2025-12-17 00:03:35 | INFO    | org.example.Main main | TrafficSim | App boot.
+2025-12-17 00:03:35 | INFO    | org.example.TrafficManager <init> | TrafficSim | TrafficManager created; starting SUMO thread…
+2025-12-17 00:03:35 | INFO    | org.example.Main main | TrafficSim | UI ready.
+2025-12-17 00:03:35 | INFO    | org.example.SumoConnector start | TrafficSim | Starting SUMO: [sumo-gui, -c, test2.sumocfg, --start, --quit-on-end]
+2025-12-17 00:03:37 | INFO    | org.example.SumoConnector start | TrafficSim | SUMO started.
+2025-12-17 00:03:37 | INFO    | org.example.TrafficLightControl captureInitialProgramIfPossible | TrafficSim | Captured initial TL program: 0
+2025-12-17 00:03:37 | INFO    | org.example.TrafficManager addRoutesOnce | TrafficSim | Routes added.
+2025-12-17 00:03:59 | INFO    | org.example.TrafficManager startSimulation | TrafficSim | Simulation START pressed.
+2025-12-17 00:04:01 | INFO    | org.example.TrafficManager run | TrafficSim | tick=40 | simTime=40000.0s | active=0 | avgWait=0.00min | cong=0.00 | thr=0 v/h | phase=0
+2025-12-17 00:04:03 | INFO    | org.example.TrafficManager run | TrafficSim | tick=80 | simTime=80000.0s | active=0 | avgWait=0.00min | cong=0.00 | thr=0 v/h | phase=2
+2025-12-17 00:04:03 | INFO    | org.example.Main lambda$main$3 | TrafficSim | Speed set: 1x (delay=100ms)
+2025-12-17 00:04:04 | INFO    | org.example.Main lambda$main$3 | TrafficSim | Speed set: 1x (delay=100ms)
+2025-12-17 00:04:06 | INFO    | org.example.Main lambda$main$3 | TrafficSim | Speed set: 1x (delay=100ms)
+2025-12-17 00:04:06 | INFO    | org.example.Main lambda$main$3 | TrafficSim | Speed set: 2x (delay=90ms)
+2025-12-17 00:04:06 | INFO    | org.example.Main lambda$main$3 | TrafficSim | Speed set: 3x (delay=80ms)
+2025-12-17 00:04:06 | INFO    | org.example.Main lambda$main$3 | TrafficSim | Speed set: 4x (delay=70ms)
+2025-12-17 00:04:06 | INFO    | org.example.Main lambda$main$3 | TrafficSim | Speed set: 3x (delay=80ms)
+2025-12-17 00:04:06 | INFO    | org.example.Main lambda$main$3 | TrafficSim | Speed set: 2x (delay=90ms)
+2025-12-17 00:04:06 | INFO    | org.example.Main lambda$main$3 | TrafficSim | Speed set: 1x (delay=100ms)
+2025-12-17 00:04:06 | INFO    | org.example.Main lambda$main$3 | TrafficSim | Speed set: 1x (delay=100ms)
+2025-12-17 00:04:07 | INFO    | org.example.TrafficManager run | TrafficSim | tick=120 | simTime=120000.0s | active=0 | avgWait=0.00min | cong=0.00 | thr=0 v/h | phase=0
+2025-12-17 00:04:11 | INFO    | org.example.TrafficManager run | TrafficSim | tick=160 | simTime=160000.0s | active=0 | avgWait=0.00min | cong=0.00 | thr=0 v/h | phase=2
+2025-12-17 00:04:15 | INFO    | org.example.TrafficManager run | TrafficSim | tick=200 | simTime=200000.0s | active=0 | avgWait=0.00min | cong=0.00 | thr=0 v/h | phase=0
+2025-12-17 00:04:19 | INFO    | org.example.TrafficManager injectN | TrafficSim | Inject: car x20
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_0 | type=car | route=r_l1_straight
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_1 | type=car | route=r_l1_straight
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_2 | type=car | route=r_l1_straight
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_3 | type=car | route=r_l1_left
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_4 | type=car | route=r_l1_straight
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_5 | type=car | route=r_l1_left
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_6 | type=car | route=r_l1_straight
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_7 | type=car | route=r_l1_left
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_8 | type=car | route=r_l1_straight
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_9 | type=car | route=r_l1_left
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_10 | type=car | route=r_l1_right
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_11 | type=car | route=r_l1_right
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_12 | type=car | route=r_l1_right
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_13 | type=car | route=r_l1_left
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_14 | type=car | route=r_l1_right
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_15 | type=car | route=r_l1_straight
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_16 | type=car | route=r_l1_left
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_17 | type=car | route=r_l1_straight
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_18 | type=car | route=r_l1_left
+2025-12-17 00:04:19 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_19 | type=car | route=r_l1_right
+2025-12-17 00:04:19 | INFO    | org.example.TrafficManager run | TrafficSim | tick=240 | simTime=240000.0s | active=1 | avgWait=0.00min | cong=0.00 | thr=0 v/h | phase=2
+2025-12-17 00:04:21 | INFO    | org.example.TrafficManager injectN | TrafficSim | Inject: truck x20
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_20 | type=truck | route=r_l2_right
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_21 | type=truck | route=r_l2_left
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_22 | type=truck | route=r_l2_right
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_23 | type=truck | route=r_l2_left
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_24 | type=truck | route=r_l2_straight
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_25 | type=truck | route=r_l2_left
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_26 | type=truck | route=r_l2_straight
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_27 | type=truck | route=r_l2_straight
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_28 | type=truck | route=r_l2_right
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_29 | type=truck | route=r_l2_right
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_30 | type=truck | route=r_l2_right
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_31 | type=truck | route=r_l2_straight
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_32 | type=truck | route=r_l2_straight
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_33 | type=truck | route=r_l2_left
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_34 | type=truck | route=r_l2_straight
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_35 | type=truck | route=r_l2_left
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_36 | type=truck | route=r_l2_straight
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_37 | type=truck | route=r_l2_straight
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_38 | type=truck | route=r_l2_left
+2025-12-17 00:04:21 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: truck_39 | type=truck | route=r_l2_left
+2025-12-17 00:04:23 | INFO    | org.example.TrafficManager injectN | TrafficSim | Inject: bus x20
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_40 | type=bus | route=r_l3_left
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_41 | type=bus | route=r_l3_right
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_42 | type=bus | route=r_l3_left
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_43 | type=bus | route=r_l3_straight
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_44 | type=bus | route=r_l3_left
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_45 | type=bus | route=r_l3_right
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_46 | type=bus | route=r_l3_straight
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_47 | type=bus | route=r_l3_right
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_48 | type=bus | route=r_l3_straight
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_49 | type=bus | route=r_l3_left
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_50 | type=bus | route=r_l3_straight
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_51 | type=bus | route=r_l3_straight
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_52 | type=bus | route=r_l3_straight
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_53 | type=bus | route=r_l3_right
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_54 | type=bus | route=r_l3_right
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_55 | type=bus | route=r_l3_left
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_56 | type=bus | route=r_l3_left
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_57 | type=bus | route=r_l3_right
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_58 | type=bus | route=r_l3_left
+2025-12-17 00:04:23 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: bus_59 | type=bus | route=r_l3_left
+2025-12-17 00:04:23 | INFO    | org.example.TrafficManager run | TrafficSim | tick=280 | simTime=280000.0s | active=8 | avgWait=0.01min | cong=0.00 | thr=1 v/h | phase=0
+2025-12-17 00:04:25 | INFO    | org.example.TrafficManager injectN | TrafficSim | Inject: car x20
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_60 | type=car | route=r_l4_left
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_61 | type=car | route=r_l4_straight
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_62 | type=car | route=r_l4_left
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_63 | type=car | route=r_l4_right
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_64 | type=car | route=r_l4_straight
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_65 | type=car | route=r_l4_right
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_66 | type=car | route=r_l4_right
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_67 | type=car | route=r_l4_left
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_68 | type=car | route=r_l4_straight
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_69 | type=car | route=r_l4_straight
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_70 | type=car | route=r_l4_straight
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_71 | type=car | route=r_l4_right
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_72 | type=car | route=r_l4_left
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_73 | type=car | route=r_l4_right
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_74 | type=car | route=r_l4_left
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_75 | type=car | route=r_l4_left
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_76 | type=car | route=r_l4_right
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_77 | type=car | route=r_l4_straight
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_78 | type=car | route=r_l4_straight
+2025-12-17 00:04:25 | INFO    | org.example.VehicleManager injectVehicle | TrafficSim | Vehicle injected: car_79 | type=car | route=r_l4_straight
+2025-12-17 00:04:27 | INFO    | org.example.TrafficManager run | TrafficSim | tick=320 | simTime=320000.0s | active=10 | avgWait=0.01min | cong=0.40 | thr=1 v/h | phase=2
+2025-12-17 00:04:32 | INFO    | org.example.TrafficManager run | TrafficSim | tick=360 | simTime=360000.0s | active=12 | avgWait=0.03min | cong=0.67 | thr=1 v/h | phase=3
+2025-12-17 00:04:36 | INFO    | org.example.TrafficManager run | TrafficSim | tick=400 | simTime=400000.0s | active=5 | avgWait=0.03min | cong=0.60 | thr=1 v/h | phase=0
+2025-12-17 00:04:40 | INFO    | org.example.TrafficManager run | TrafficSim | tick=440 | simTime=440000.0s | active=7 | avgWait=0.03min | cong=0.43 | thr=1 v/h | phase=2
+2025-12-17 00:04:44 | INFO    | org.example.TrafficManager run | TrafficSim | tick=480 | simTime=480000.0s | active=5 | avgWait=0.03min | cong=0.60 | thr=1 v/h | phase=0
+2025-12-17 00:04:48 | INFO    | org.example.TrafficManager run | TrafficSim | tick=520 | simTime=520000.0s | active=4 | avgWait=0.03min | cong=0.50 | thr=1 v/h | phase=2
+2025-12-17 00:04:52 | INFO    | org.example.TrafficManager run | TrafficSim | tick=560 | simTime=560000.0s | active=2 | avgWait=0.03min | cong=0.50 | thr=1 v/h | phase=0
+2025-12-17 00:04:55 | INFO    | org.example.TrafficLightControl forceSelected | TrafficSim | TL override: T3_SOUTH -> FORCE_GREEN
+2025-12-17 00:04:56 | INFO    | org.example.TrafficManager run | TrafficSim | tick=600 | simTime=600000.0s | active=0 | avgWait=0.03min | cong=0.00 | thr=0 v/h | phase=0
+2025-12-17 00:05:00 | INFO    | org.example.TrafficLightControl resetToNormal | TrafficSim | TL override reset.
+2025-12-17 00:05:00 | INFO    | org.example.TrafficManager run | TrafficSim | tick=640 | simTime=640000.0s | active=0 | avgWait=0.03min | cong=0.00 | thr=0 v/h | phase=2
+2025-12-17 00:05:04 | INFO    | org.example.TrafficLightControl forceSelected | TrafficSim | TL override: T4_NORTH -> FORCE_GREEN
+2025-12-17 00:05:04 | INFO    | org.example.TrafficManager run | TrafficSim | tick=680 | simTime=680000.0s | active=0 | avgWait=0.03min | cong=0.00 | thr=0 v/h | phase=0
+2025-12-17 00:05:08 | INFO    | org.example.TrafficManager run | TrafficSim | tick=720 | simTime=720000.0s | active=0 | avgWait=0.03min | cong=0.00 | thr=0 v/h | phase=0
+2025-12-17 00:05:10 | INFO    | org.example.TrafficManager stopSimulation | TrafficSim | Simulation STOP pressed.
+2025-12-17 00:05:10 | INFO    | org.example.TrafficManager run | TrafficSim | Stopping SUMO…
+2025-12-17 00:05:10 | INFO    | org.example.TrafficManager run | TrafficSim | SUMO closed.
+2025-12-17 00:05:10 | INFO    | org.example.Main lambda$main$0 | TrafficSim | UI closing; exit.
+2025-12-17 01:25:21 | INFO    | org.example.Logging initOnce | TrafficSim | Logger ready (console + traffic_sim.log).
+2025-12-17 01:25:21 | INFO    | org.example.Main main | TrafficSim | App boot.
+2025-12-17 01:25:21 | INFO    | org.example.TrafficManager <init> | TrafficSim | TrafficManager created; starting SUMO thread…
+2025-12-17 01:25:21 | INFO    | org.example.Main main | TrafficSim | UI ready.
+2025-12-17 01:25:21 | INFO    | org.example.SumoConnector start | TrafficSim | Starting SUMO: [sumo-gui, -c, test2.sumocfg, --start, --quit-on-end]
+2025-12-17 01:25:24 | INFO    | org.example.SumoConnector start | TrafficSim | SUMO started.
+2025-12-17 01:25:24 | INFO    | org.example.TrafficLightControl captureInitialProgramIfPossible | TrafficSim | Captured initial TL program: 0
+2025-12-17 01:25:24 | INFO    | org.example.TrafficManager addRoutesOnce | TrafficSim | Routes added.
+2025-12-17 01:26:20 | INFO    | org.example.TrafficManager stopSimulation | TrafficSim | Simulation STOP pressed.
+2025-12-17 01:26:20 | INFO    | org.example.TrafficManager run | TrafficSim | Stopping SUMO…
+2025-12-17 01:26:20 | INFO    | org.example.TrafficManager run | TrafficSim | SUMO closed.
+2025-12-17 01:26:20 | INFO    | org.example.Main lambda$main$0 | TrafficSim | UI closing; exit.
+2025-12-17 01:27:38 | INFO    | org.example.Logging initOnce | TrafficSim | Logger ready (console + traffic_sim.log).
+2025-12-17 01:27:38 | INFO    | org.example.Main main | TrafficSim | App boot.
+2025-12-17 01:27:39 | INFO    | org.example.TrafficManager <init> | TrafficSim | TrafficManager created; starting SUMO thread…
+2025-12-17 01:27:39 | INFO    | org.example.Main main | TrafficSim | UI ready.
+2025-12-17 01:27:39 | INFO    | org.example.SumoConnector start | TrafficSim | Starting SUMO: [sumo-gui, -c, test2.sumocfg, --start, --quit-on-end]
+2025-12-17 01:27:41 | INFO    | org.example.SumoConnector start | TrafficSim | SUMO started.
+2025-12-17 01:27:41 | INFO    | org.example.TrafficLightControl captureInitialProgramIfPossible | TrafficSim | Captured initial TL program: 0
+2025-12-17 01:27:41 | INFO    | org.example.TrafficManager addRoutesOnce | TrafficSim | Routes added.
+2025-12-17 01:29:04 | INFO    | org.example.TrafficManager stopSimulation | TrafficSim | Simulation STOP pressed.
+2025-12-17 01:29:04 | INFO    | org.example.TrafficManager run | TrafficSim | Stopping SUMO…
+2025-12-17 01:29:04 | INFO    | org.example.TrafficManager run | TrafficSim | SUMO closed.
+2025-12-17 01:29:04 | INFO    | org.example.Main lambda$main$0 | TrafficSim | UI closing; exit.
+2025-12-17 01:35:13 | INFO    | org.example.Logging initOnce | TrafficSim | Logger ready (console + traffic_sim.log).
+2025-12-17 01:35:13 | INFO    | org.example.Main main | TrafficSim | App boot.
+2025-12-17 01:35:13 | INFO    | org.example.TrafficManager <init> | TrafficSim | TrafficManager created; starting SUMO thread…
+2025-12-17 01:35:13 | INFO    | org.example.Main main | TrafficSim | UI ready.
+2025-12-17 01:35:13 | INFO    | org.example.SumoConnector start | TrafficSim | Starting SUMO: [sumo-gui, -c, test2.sumocfg, --start, --quit-on-end]
+2025-12-17 01:35:15 | INFO    | org.example.SumoConnector start | TrafficSim | SUMO started.
+2025-12-17 01:35:15 | INFO    | org.example.TrafficLightControl captureInitialProgramIfPossible | TrafficSim | Captured initial TL program: 0
+2025-12-17 01:35:15 | INFO    | org.example.TrafficManager addRoutesOnce | TrafficSim | Routes added.
+2025-12-17 01:35:30 | INFO    | org.example.TrafficManager stopSimulation | TrafficSim | Simulation STOP pressed.
+2025-12-17 01:35:30 | INFO    | org.example.TrafficManager run | TrafficSim | Stopping SUMO…
+2025-12-17 01:35:30 | INFO    | org.example.TrafficManager run | TrafficSim | SUMO closed.
+2025-12-17 01:35:30 | INFO    | org.example.Main lambda$main$0 | TrafficSim | UI closing; exit.

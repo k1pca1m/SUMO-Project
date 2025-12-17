@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <!-- Vehicle types (used by Java Vehicle.add) -->
+    <vType id="car"   accel="2.0" decel="4.5" sigma="0.5"
+           length="5.0"  maxSpeed="20" color="1,0,0"/>
+
+    <vType id="truck" accel="1.0" decel="4.0" sigma="0.5"
+           length="12.0" maxSpeed="15" color="0,0,1"/>
+
+    <vType id="bus"   accel="1.2" decel="4.0" sigma="0.5"
+           length="10.0" maxSpeed="18" color="0,1,0"/>
+
+    <!--
+        No flows here on purpose:
+        - Simulation starts with 0 vehicles.
+        - All vehicles are added at runtime from the Java GUI
+          via Vehicle.add(...).
+    -->
+
+</routes>
